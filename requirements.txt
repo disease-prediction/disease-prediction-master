@@ -1,8 +1,14 @@
+beautifulsoup4==4.10.0
 Flask==2.2.2
+gunicorn==20.1.0
 numpy==1.22.3
-scikit-learn==1.1.1
 pandas==1.4.2
 nltk==3.7
-beautifulsoup4==4.10.0
-gunicorn==20.1.0
+scikit-learn==1.1.1
 scipy==1.8.0
+scikit-learn==1.1.1
+statistics==1.0.3.5
+more-itertools==8.14.0
+collection==0.1.6
+pyoperators==0.14.2
+json5==0.9.8
