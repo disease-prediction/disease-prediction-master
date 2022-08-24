@@ -8,7 +8,7 @@ nltk.download('wordnet')
 nltk.download('omw-1.4')
 #print('1')
 from sklearn.model_selection import cross_val_score
-#from statistics import mean
+from statistics import mean
 from nltk.corpus import stopwords
 from nltk.stem import WordNetLemmatizer
 from nltk.tokenize import RegexpTokenizer
