@@ -1,28 +1,28 @@
 from flask import Flask, request, render_template
 import pandas as pd
-'''import warnings
+import warnings
 from decimal import Decimal
-import nltk
-nltk.download('stopwords')
-nltk.download('wordnet')
-nltk.download('omw-1.4')
-print('1')
-from sklearn.model_selection import cross_val_score
-from statistics import mean
-from nltk.corpus import stopwords
-from nltk.stem import WordNetLemmatizer
-from nltk.tokenize import RegexpTokenizer
-from itertools import combinations
-from collections import Counter
-import operator
-from sklearn.linear_model import LogisticRegression
-import json'''
+#import nltk
+#nltk.download('stopwords')
+#nltk.download('wordnet')
+#nltk.download('omw-1.4')
+#print('1')
+#from sklearn.model_selection import cross_val_score
+#from statistics import mean
+#from nltk.corpus import stopwords
+#from nltk.stem import WordNetLemmatizer
+#from nltk.tokenize import RegexpTokenizer
+#from itertools import combinations
+#from collections import Counter
+#import operator
+#from sklearn.linear_model import LogisticRegression
+#import json
 
-print('2')
-'''warnings.simplefilter("ignore")
-stop_words = stopwords.words('english')
-lemmatizer = WordNetLemmatizer()
-splitter = RegexpTokenizer(r'\w+')'''
+#print('2')
+#warnings.simplefilter("ignore")
+#stop_words = stopwords.words('english')
+#lemmatizer = WordNetLemmatizer()
+#splitter = RegexpTokenizer(r'\w+')
 app = Flask(__name__)
 '''df_comb = pd.read_csv("dataset/dis_sym_dataset_dr_comb.csv") # Disease combination
 X_train = df_comb.iloc[:, 1:]
