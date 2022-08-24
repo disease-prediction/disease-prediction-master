@@ -2,10 +2,10 @@ from flask import Flask, request, render_template
 import pandas as pd
 import warnings
 from decimal import Decimal
-#import nltk
-#nltk.download('stopwords')
-#nltk.download('wordnet')
-#nltk.download('omw-1.4')
+import nltk
+nltk.download('stopwords')
+nltk.download('wordnet')
+nltk.download('omw-1.4')
 #print('1')
 #from sklearn.model_selection import cross_val_score
 #from statistics import mean
