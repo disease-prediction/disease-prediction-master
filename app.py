@@ -14,9 +14,9 @@ from nltk.stem import WordNetLemmatizer
 from nltk.tokenize import RegexpTokenizer
 #from itertools import combinations
 #from collections import Counter
-#import operator
+import operator
 #from sklearn.linear_model import LogisticRegression
-#import json
+import json
 
 #print('2')
 #warnings.simplefilter("ignore")
