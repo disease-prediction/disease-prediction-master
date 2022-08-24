@@ -15,7 +15,7 @@ from nltk.tokenize import RegexpTokenizer
 from itertools import combinations
 from collections import Counter
 import operator
-#from sklearn.linear_model import LogisticRegression
+from sklearn.linear_model import LogisticRegression
 import json
 
 #print('2')
