@@ -12,8 +12,8 @@ nltk.download('omw-1.4')
 from nltk.corpus import stopwords
 from nltk.stem import WordNetLemmatizer
 from nltk.tokenize import RegexpTokenizer
-#from itertools import combinations
-#from collections import Counter
+from itertools import combinations
+from collections import Counter
 import operator
 #from sklearn.linear_model import LogisticRegression
 import json
