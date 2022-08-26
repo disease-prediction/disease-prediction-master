@@ -28,7 +28,7 @@ df_comb = pd.read_csv("dataset/dis_sym_dataset_dr_comb.csv") # Disease combinati
 X_train = df_comb.iloc[:, 1:]
 Y_train = df_comb.iloc[:, 0:1]
 
-'''rf =   LogisticRegression()
+rf =   LogisticRegression()
 rf = rf.fit(X_train, Y_train)
 scores = cross_val_score(rf, X_train, Y_train, cv=3)
 score = round(Decimal(scores.mean()*100),2)
@@ -40,7 +40,7 @@ Y_test = test.iloc[:, 0:1]
 x_test=test.drop('label_dis',axis=1)
 
 # List of symptoms
-dataset_symptoms = list(X_test.columns)'''
+dataset_symptoms = list(X_test.columns)
 
 print('3')
 @app.route('/')
