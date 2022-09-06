@@ -28,10 +28,10 @@ df_comb = pd.read_csv("dataset/dis_sym_dataset_dr_comb.csv") # Disease combinati
 X_train = df_comb.iloc[:, 1:]
 Y_train = df_comb.iloc[:, 0:1]
 
-# rf =   LogisticRegression()
-# rf = rf.fit(X_train, Y_train)
-# scores = cross_val_score(rf, X_train, Y_train, cv=3)
-# score = round(Decimal(scores.mean()*100),2)
+rf =   LogisticRegression()
+rf = rf.fit(X_train, Y_train)
+scores = cross_val_score(rf, X_train, Y_train, cv=3)
+score = round(Decimal(scores.mean()*100),2)
 
 
 # test=pd.read_csv("dataset/dis_sym_dataset_dr_norm.csv",error_bad_lines=False)
