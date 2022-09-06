@@ -60,4 +60,4 @@ jobs:
         with:
           app-name: 'stessis'
           slot-name: 'Production'
-          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_C8FAE0616EEE4A83B9C6F2D661A9AF6D }}
+          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_87BEA4EF696849558BA455F378BD59DE }}
