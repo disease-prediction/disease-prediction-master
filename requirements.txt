@@ -85,6 +85,5 @@ waitress==2.1.2
 wcwidth==0.2.5
 Werkzeug==2.2.2
 zipp==1.0.0
-PyGObject==3.36.0
 setuptools==65.3.0
 pip-upgrade-tool==0.7.3
