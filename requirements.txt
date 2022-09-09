@@ -88,4 +88,4 @@ zipp==1.0.0
 PyGObject==3.36.0
 setuptools==65.3.0
 pip-upgrade-tool==0.7.3
-libgirepository1.0-dev==1.56.1
+libgirepository1.0-dev
