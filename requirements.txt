@@ -84,7 +84,6 @@ waitress==2.1.2
 wcwidth==0.2.5
 Werkzeug==2.2.2
 zipp==1.0.0
-[12:03] Vivek Rathod
 PyGObject==3.42.2
 setuptools==65.3.0
 pip-upgrade-tool==0.7.3
