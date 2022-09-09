@@ -84,5 +84,4 @@ waitress==2.1.2
 wcwidth==0.2.5
 Werkzeug==2.2.2
 zipp==1.0.0
-zope.interface==4.7.1
 
